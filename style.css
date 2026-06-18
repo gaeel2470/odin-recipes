@@ -3,18 +3,38 @@ body
     font-family: Verdana, Arial, sans-serif;
 }
 
-.title h1
+.title, .recipes
 {
-    text-align: center;
+    box-sizing: border-box;
+    width: 400px;
+    margin: 0 auto;
 }
 
 .title
 {
-    box-sizing: border-box;
     background-color: lightblue;
     height: 150px;
-    width: 400px;
-    margin: 0 auto;
     margin-top: 40px;
-    padding: 30px;
+    padding-top: 35px;
+    text-align: center;
+}
+
+.recipes
+{
+    background-color: lightgray;
+    font-size: 18px;
+    height: 450px;
+}
+
+.recipes ul
+{
+    box-sizing: border-box;
+    width: 350px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.recipes li
+{ 
+    margin-bottom: 20px;
 }
