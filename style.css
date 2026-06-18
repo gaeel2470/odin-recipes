@@ -1,3 +1,13 @@
+html
+{
+    box-sizing: border-box;
+}
+
+*
+{
+    box-sizing: inherit;
+}
+
 body
 {
     font-family: Verdana, Arial, sans-serif;
@@ -5,7 +15,6 @@ body
 
 .title, .recipes
 {
-    box-sizing: border-box;
     width: 400px;
     margin: 0 auto;
 }
@@ -28,7 +37,6 @@ body
 
 .recipes ul
 {
-    box-sizing: border-box;
     width: 350px;
     margin: 0 auto;
     padding-top: 50px;
