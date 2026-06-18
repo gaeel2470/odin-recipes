@@ -2,3 +2,19 @@ body
 {
     font-family: Verdana, Arial, sans-serif;
 }
+
+.title h1
+{
+    text-align: center;
+}
+
+.title
+{
+    box-sizing: border-box;
+    background-color: lightblue;
+    height: 150px;
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 40px;
+    padding: 30px;
+}
