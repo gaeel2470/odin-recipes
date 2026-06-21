@@ -57,9 +57,26 @@ a
     text-decoration: none;
 }
 
+.recipe-title, img, .recipe-description, .recipe-ingredients, .recipe-steps
+{
+    margin-left: 50px;
+}
+
 .home-button
 {   
     display: block;
     padding: 10px 20px;
     margin: 0 auto;
+}
+
+.recipe-title
+{   
+    padding-top: 20px;
+    margin-bottom: 50px;
+}
+
+.recipe-description, .recipe-steps
+{
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
