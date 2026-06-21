@@ -47,7 +47,7 @@ body
     padding-top: 50px;
 }
 
-.recipes li
+.recipes li, .recipe-ingredients li
 { 
     margin-bottom: 20px;
 }
@@ -76,7 +76,14 @@ a
 }
 
 .recipe-description, .recipe-steps
-{
+{   
     margin-top: 50px;
     margin-bottom: 50px;
+}
+
+.recipe-ingredients
+{   
+    width: 700px;
+    background-color: lightcyan;
+    padding: 30px;
 }
