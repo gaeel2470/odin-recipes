@@ -47,7 +47,7 @@ body
     padding-top: 50px;
 }
 
-.recipes li, .recipe-ingredients li
+.recipes li, .recipe-ingredients li, .recipe-steps li
 { 
     margin-bottom: 20px;
 }
@@ -85,5 +85,12 @@ a
 {   
     width: 700px;
     background-color: lightcyan;
+    padding: 30px;
+}
+
+.recipe-steps
+{
+    width: 1200px;
+    background-color: lightsalmon;
     padding: 30px;
 }
