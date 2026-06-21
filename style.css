@@ -11,6 +11,10 @@ html
 body
 {
     font-family: Verdana, Arial, sans-serif;
+}
+
+.homepage
+{
     background-image: url("./images/OEB9AO0.jpg");
 }
 
