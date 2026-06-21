@@ -81,16 +81,20 @@ a
     margin-bottom: 50px;
 }
 
+.recipe-ingredients, .recipe-steps
+{
+    padding: 30px;
+    border-radius: 25px;
+}
+
 .recipe-ingredients
 {   
     width: 700px;
     background-color: lightcyan;
-    padding: 30px;
 }
 
 .recipe-steps
 {
     width: 1200px;
     background-color: lightsalmon;
-    padding: 30px;
 }
