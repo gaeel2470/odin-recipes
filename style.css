@@ -60,7 +60,7 @@ a
 
 a:hover
 {
-    color: #0000ff;
+    color: darkblue;
 }
 
 .recipe-name, img, .recipe-description, .recipe-ingredients, .recipe-steps
@@ -71,8 +71,20 @@ a:hover
 .home-button
 {   
     display: block;
-    padding: 10px 20px;
+    background-color: #000000;
+    padding: 15px 25px;
     margin: 0 auto;
+}
+
+.home-button:hover
+{
+    background-color: #222222;
+}
+
+.home-button a
+{
+    color: #ffffff;
+    font-weight: bold;
 }
 
 .recipe-name
