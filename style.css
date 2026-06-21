@@ -56,3 +56,10 @@ a
 {
     text-decoration: none;
 }
+
+.home-button
+{   
+    display: block;
+    padding: 10px 20px;
+    margin: 0 auto;
+}
