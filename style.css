@@ -57,7 +57,7 @@ a
     text-decoration: none;
 }
 
-.recipe-title, img, .recipe-description, .recipe-ingredients, .recipe-steps
+.recipe-name, img, .recipe-description, .recipe-ingredients, .recipe-steps
 {
     margin-left: 50px;
 }
@@ -69,7 +69,7 @@ a
     margin: 0 auto;
 }
 
-.recipe-title
+.recipe-name
 {   
     padding-top: 20px;
     margin-bottom: 50px;
